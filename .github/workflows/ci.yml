@@ -3,7 +3,7 @@ name: Deploy dokku
 on:
   push:
     branches:
-      - main
+      - development
 
 jobs:
   deploy:
